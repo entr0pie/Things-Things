@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/entr0pie/ClassicSQLInjection/issues"
   },
-  "homepage": "https://github.com/entr0pie/ClassicSQLInjection#readme"
+  "homepage": "https://github.com/entr0pie/ClassicSQLInjection#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
