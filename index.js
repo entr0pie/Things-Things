@@ -9,10 +9,10 @@ const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./database/database.db');
 
 app.get("/", (_, res) => {
-  res.redirect("/costumers")
+  res.redirect("/customers")
 });
 
-app.get("/costumers", (req, res) => {
+app.get("/customers", (req, res) => {
   const search_query = req.query.search;
   db.all(`SELECT * FROM customers WHERE name LIKE '%${search_query}%';`, (err, rows) => {
     if (err) {
