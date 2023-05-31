@@ -9,13 +9,13 @@ To install and run Things&Things, follow these steps:
 1. Clone the repository:
 
 ```
-https://github.com/entr0pie/Things&Things/
+https://github.com/entr0pie/Things-Things/
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd Things&Things
+cd Things-Things
 ```
 
 3. Install the dependencies:
