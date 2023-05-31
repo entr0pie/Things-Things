@@ -2,6 +2,8 @@
 
 Things&Things is a SQL Injection vulnerable web server designed to demonstrate and educate about the classic SQL Injection vulnerability.
 
+![Things&Things intial page](assets/index.png)
+
 ## Installation
 
 To install and run Things&Things, follow these steps:
