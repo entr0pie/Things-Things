@@ -47,7 +47,7 @@ How to get started:
 
 3. Experiment with various SQL injection techniques to manipulate the application's behavior and access unintended data.
 
-4. If you're looking for hints or guidance, check this paper. If you want to see the how to exploit this app, step-by-step, check the secret/README.md file. 
+4. If you're looking for hints or guidance, check this [paper](https://www.exploit-db.com/docs/english/41397-injecting-sqlite-database-based-applications.pdf). If you want to see the how to exploit this app, step-by-step, see the secret/README.md file. 
 
 Remember, the purpose of this app is to understand the risks associated with SQL Injection and how to prevent it. Always use this knowledge responsibly and respect the security of others' systems.
 
