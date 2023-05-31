@@ -50,7 +50,6 @@
             <thead>
               <tr>
                 <th scope="col">Name</th>
-                <th scope="col">Surname</th>
                 <th scope="col">Email</th>
                 <th scope="col">Date of Birth</th>
                 <th scope="col">Phone Number</th>
@@ -60,8 +59,7 @@
             <tbody>
               <% rows.forEach(function(customer) { %>
                 <tr>
-                  <td><%= customer.name %></td>
-                  <td><%= customer.surname %></td>
+                  <td><%= customer.name + " " + customer.surname %></td>
                   <td><%= customer.email %></td>
                   <td><%= customer.date_of_birth %></td>
                   <td><%= customer.phone_number %></td>
@@ -72,9 +70,15 @@
       </div>
     </div>
 
+  <% if (rows.length <= 11) { %>
   <footer class="py-3 my-4 fixed-bottom ">
     <p class="text-center text-muted">© 2023 Things&Things, Inc</p>
   </footer>
+  <% } else { %>
+  <<footer class="py-3 my-4">
+    <p class="text-center text-muted">© 2023 Things&Things, Inc</p>
+  </footer>
+  <% } %>
 
   </body>
 </html>
